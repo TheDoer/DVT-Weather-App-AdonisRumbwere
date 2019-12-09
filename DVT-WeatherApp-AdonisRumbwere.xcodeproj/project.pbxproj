@@ -99,9 +99,13 @@
 		F1FADB16239E864600A65A01 /* DVT-WeatherApp-AdonisRumbwere */ = {
 			isa = PBXGroup;
 			children = (
+				F1FADB4F239EA0D700A65A01 /* Extensions */,
+				F1FADB4E239EA0CF00A65A01 /* Extras */,
+				F1FADB4D239EA0AD00A65A01 /* View */,
+				F1FADB49239E9FFF00A65A01 /* Model */,
+				F1FADB48239E9FEF00A65A01 /* Controller */,
 				F1FADB17239E864600A65A01 /* AppDelegate.swift */,
 				F1FADB19239E864600A65A01 /* SceneDelegate.swift */,
-				F1FADB1B239E864600A65A01 /* ViewController.swift */,
 				F1FADB1D239E864600A65A01 /* Main.storyboard */,
 				F1FADB20239E864900A65A01 /* Assets.xcassets */,
 				F1FADB22239E864900A65A01 /* LaunchScreen.storyboard */,
@@ -126,6 +130,43 @@
 				F1FADB3B239E864A00A65A01 /* Info.plist */,
 			);
 			path = "DVT-WeatherApp-AdonisRumbwereUITests";
+			sourceTree = "<group>";
+		};
+		F1FADB48239E9FEF00A65A01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1FADB1B239E864600A65A01 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F1FADB49239E9FFF00A65A01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1FADB4D239EA0AD00A65A01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = ../View;
+			sourceTree = "<group>";
+		};
+		F1FADB4E239EA0CF00A65A01 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		F1FADB4F239EA0D700A65A01 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
