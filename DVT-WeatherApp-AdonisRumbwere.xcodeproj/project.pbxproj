@@ -15,6 +15,7 @@
 		F1FADB24239E864900A65A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FADB22239E864900A65A01 /* LaunchScreen.storyboard */; };
 		F1FADB2F239E864A00A65A01 /* DVT_WeatherApp_AdonisRumbwereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB2E239E864A00A65A01 /* DVT_WeatherApp_AdonisRumbwereTests.swift */; };
 		F1FADB3A239E864A00A65A01 /* DVT_WeatherApp_AdonisRumbwereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB39239E864A00A65A01 /* DVT_WeatherApp_AdonisRumbwereUITests.swift */; };
+		F1FADB51239FE51700A65A01 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB50239FE51700A65A01 /* Extras.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F1FADB35239E864A00A65A01 /* DVT-WeatherApp-AdonisRumbwereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DVT-WeatherApp-AdonisRumbwereUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FADB39239E864A00A65A01 /* DVT_WeatherApp_AdonisRumbwereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVT_WeatherApp_AdonisRumbwereUITests.swift; sourceTree = "<group>"; };
 		F1FADB3B239E864A00A65A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FADB50239FE51700A65A01 /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		F1FADB4E239EA0CF00A65A01 /* Extras */ = {
 			isa = PBXGroup;
 			children = (
+				F1FADB50239FE51700A65A01 /* Extras.swift */,
 			);
 			path = Extras;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			files = (
 				F1FADB1C239E864600A65A01 /* ViewController.swift in Sources */,
 				F1FADB18239E864600A65A01 /* AppDelegate.swift in Sources */,
+				F1FADB51239FE51700A65A01 /* Extras.swift in Sources */,
 				F1FADB1A239E864600A65A01 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
