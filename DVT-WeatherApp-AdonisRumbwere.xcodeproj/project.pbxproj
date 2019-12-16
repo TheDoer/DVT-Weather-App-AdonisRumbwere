@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F13529B623A2562E00F47982 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB1B239E864600A65A01 /* ViewController.swift */; };
+		F13529B723A2562E00F47982 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB1B239E864600A65A01 /* ViewController.swift */; };
+		F1A1B93223A77F4E00DB3618 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A1B93123A77F4E00DB3618 /* Extension.swift */; };
+		F1A1B93423A77FB200DB3618 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A1B93323A77FB200DB3618 /* CurrentWeather.swift */; };
+		F1A1B93623A77FD600DB3618 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A1B93523A77FD600DB3618 /* Location.swift */; };
+		F1A1B93823A7801400DB3618 /* ForecastWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A1B93723A7801400DB3618 /* ForecastWeather.swift */; };
+		F1A1B93A23A7807000DB3618 /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A1B93923A7807000DB3618 /* ForecastCell.swift */; };
 		F1FADB18239E864600A65A01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB17239E864600A65A01 /* AppDelegate.swift */; };
 		F1FADB1A239E864600A65A01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB19239E864600A65A01 /* SceneDelegate.swift */; };
 		F1FADB1C239E864600A65A01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB1B239E864600A65A01 /* ViewController.swift */; };
@@ -36,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1A1B93123A77F4E00DB3618 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		F1A1B93323A77FB200DB3618 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		F1A1B93523A77FD600DB3618 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		F1A1B93723A7801400DB3618 /* ForecastWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWeather.swift; sourceTree = "<group>"; };
+		F1A1B93923A7807000DB3618 /* ForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
 		F1FADB14239E864600A65A01 /* DVT-WeatherApp-AdonisRumbwere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DVT-WeatherApp-AdonisRumbwere.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FADB17239E864600A65A01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1FADB19239E864600A65A01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +157,9 @@
 		F1FADB49239E9FFF00A65A01 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F1A1B93323A77FB200DB3618 /* CurrentWeather.swift */,
+				F1A1B93523A77FD600DB3618 /* Location.swift */,
+				F1A1B93723A7801400DB3618 /* ForecastWeather.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,6 +167,7 @@
 		F1FADB4D239EA0AD00A65A01 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F1A1B93923A7807000DB3618 /* ForecastCell.swift */,
 			);
 			name = View;
 			path = ../View;
@@ -168,6 +184,7 @@
 		F1FADB4F239EA0D700A65A01 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F1A1B93123A77F4E00DB3618 /* Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -303,10 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A1B93223A77F4E00DB3618 /* Extension.swift in Sources */,
 				F1FADB1C239E864600A65A01 /* ViewController.swift in Sources */,
 				F1FADB18239E864600A65A01 /* AppDelegate.swift in Sources */,
 				F1FADB51239FE51700A65A01 /* Extras.swift in Sources */,
+				F1A1B93A23A7807000DB3618 /* ForecastCell.swift in Sources */,
+				F1A1B93423A77FB200DB3618 /* CurrentWeather.swift in Sources */,
 				F1FADB1A239E864600A65A01 /* SceneDelegate.swift in Sources */,
+				F1A1B93623A77FD600DB3618 /* Location.swift in Sources */,
+				F1A1B93823A7801400DB3618 /* ForecastWeather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13529B623A2562E00F47982 /* ViewController.swift in Sources */,
 				F1FADB2F239E864A00A65A01 /* DVT_WeatherApp_AdonisRumbwereTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13529B723A2562E00F47982 /* ViewController.swift in Sources */,
 				F1FADB3A239E864A00A65A01 /* DVT_WeatherApp_AdonisRumbwereUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
