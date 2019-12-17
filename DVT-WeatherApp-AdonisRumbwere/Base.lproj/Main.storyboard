@@ -113,12 +113,6 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTq-Kl-35E">
-                                <rect key="frame" x="33" y="335" width="18" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -126,7 +120,6 @@
                             <constraint firstItem="95L-NP-IAM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-50" id="5GQ-PQ-aRD"/>
                             <constraint firstItem="bzI-Ss-0P2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7NJ-ek-C3N"/>
                             <constraint firstItem="n35-5g-75q" firstAttribute="top" secondItem="n8y-tL-3Yn" secondAttribute="bottom" constant="4" id="C5v-VY-IMP"/>
-                            <constraint firstItem="cTq-Kl-35E" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ED8-9S-S3u"/>
                             <constraint firstItem="bE2-Kg-Pno" firstAttribute="top" secondItem="qz2-CC-c0c" secondAttribute="bottom" constant="6" id="GLA-lN-g2J"/>
                             <constraint firstItem="n8y-tL-3Yn" firstAttribute="top" secondItem="bE2-Kg-Pno" secondAttribute="bottom" constant="4" id="RpV-ZP-DaQ"/>
                             <constraint firstItem="Y8d-dD-DHh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SD3-0H-oX9"/>
@@ -136,9 +129,7 @@
                             <constraint firstItem="qz2-CC-c0c" firstAttribute="top" secondItem="Y8d-dD-DHh" secondAttribute="bottom" constant="6" id="Uph-Xk-HUF"/>
                             <constraint firstItem="n35-5g-75q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xio-Yg-jCU"/>
                             <constraint firstItem="qz2-CC-c0c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ck4-Ty-DfY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cTq-Kl-35E" secondAttribute="trailing" constant="324" id="dIv-2w-eeQ"/>
                             <constraint firstItem="95L-NP-IAM" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="50" id="fXI-R8-S0D"/>
-                            <constraint firstItem="cTq-Kl-35E" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="335" id="nQe-FR-pFo"/>
                             <constraint firstItem="95L-NP-IAM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="50" id="oAZ-cG-hyb"/>
                             <constraint firstItem="bzI-Ss-0P2" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="rTN-Wg-3F7"/>
                             <constraint firstItem="bzI-Ss-0P2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ykc-m8-tW5"/>
