@@ -20,8 +20,19 @@ class DVT_WeatherApp_AdonisRumbwereTests: XCTestCase {
     }
 
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let e = expectation(description: "Alamofire")
+
+        Alamofire.request(urlString)
+            .response { response in
+                XCTAssertNil(response.error, "Whoops, error \(response.error!.localizedDescription)")
+
+                XCTAssertNotNil(response, "No response")
+                XCTAssertEqual(response.response?.statusCode ?? 0, 200, "Status code not 200")
+
+                e.fulfill()
+        }
+
+        waitForExpectations(timeout: 5.0, handler: nil)
     }
 
     func testPerformanceExample() {

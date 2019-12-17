@@ -22,6 +22,7 @@
 		F1A1B93B23A7991400DB3618 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB50239FE51700A65A01 /* Extras.swift */; };
 		F1A1B93C23A7991400DB3618 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB50239FE51700A65A01 /* Extras.swift */; };
 		F1C4018E23A80D760083F2CF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1FADB25239E864900A65A01 /* Info.plist */; };
+		F1C4019223A911AB0083F2CF /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C4019123A911AB0083F2CF /* BaseTestCase.swift */; };
 		F1FADB18239E864600A65A01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB17239E864600A65A01 /* AppDelegate.swift */; };
 		F1FADB1A239E864600A65A01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB19239E864600A65A01 /* SceneDelegate.swift */; };
 		F1FADB1C239E864600A65A01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB1B239E864600A65A01 /* ViewController.swift */; };
@@ -64,6 +65,7 @@
 		F1A1B93523A77FD600DB3618 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		F1A1B93723A7801400DB3618 /* ForecastWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWeather.swift; sourceTree = "<group>"; };
 		F1A1B93923A7807000DB3618 /* ForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
+		F1C4019123A911AB0083F2CF /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
 		F1FADB14239E864600A65A01 /* DVT-WeatherApp-AdonisRumbwere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DVT-WeatherApp-AdonisRumbwere.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FADB17239E864600A65A01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1FADB19239E864600A65A01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F1C4019023A9116B0083F2CF /* AlamofireTest */ = {
+			isa = PBXGroup;
+			children = (
+				F1C4019123A911AB0083F2CF /* BaseTestCase.swift */,
+			);
+			path = AlamofireTest;
+			sourceTree = "<group>";
+		};
 		F1FADB0B239E864600A65A01 = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +186,7 @@
 		F1FADB2D239E864A00A65A01 /* DVT-WeatherApp-AdonisRumbwereTests */ = {
 			isa = PBXGroup;
 			children = (
+				F1C4019023A9116B0083F2CF /* AlamofireTest */,
 				F1FADB2E239E864A00A65A01 /* DVT_WeatherApp_AdonisRumbwereTests.swift */,
 				F1FADB30239E864A00A65A01 /* Info.plist */,
 			);
@@ -474,6 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C4019223A911AB0083F2CF /* BaseTestCase.swift in Sources */,
 				F13529B623A2562E00F47982 /* ViewController.swift in Sources */,
 				F1A1B93B23A7991400DB3618 /* Extras.swift in Sources */,
 				F1FADB2F239E864A00A65A01 /* DVT_WeatherApp_AdonisRumbwereTests.swift in Sources */,
