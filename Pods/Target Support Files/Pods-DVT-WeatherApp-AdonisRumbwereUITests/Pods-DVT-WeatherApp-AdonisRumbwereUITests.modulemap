@@ -1,0 +1,6 @@
+framework module Pods_DVT_WeatherApp_AdonisRumbwereUITests {
+  umbrella header "Pods-DVT-WeatherApp-AdonisRumbwereUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -46,7 +46,7 @@ class CurrentWeather {
         return _currentTemp
     }
     
-    /// Downloading Current Weather Data
+    /// Downloading Current Weather Data, so that we can update the UI
     ///
     /// - Parameter completed: Completion Handler.
     func downloadCurrentWeather(completed: @escaping DownloadComplete){

@@ -3,17 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97989C7833EC9374679B3849 /* Pods_DVT_WeatherApp_AdonisRumbwereTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9092A4F436FBF84D7AAAD1DB /* Pods_DVT_WeatherApp_AdonisRumbwereTests.framework */; };
+		9B52FFDF41DDBD3547BC97B5 /* Pods_DVT_WeatherApp_AdonisRumbwere.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FA5BB363A0BECB172B71B7 /* Pods_DVT_WeatherApp_AdonisRumbwere.framework */; };
+		AC3898077D666C6C86BE94AF /* Pods_DVT_WeatherApp_AdonisRumbwereUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072718473FC96254C3ED62C8 /* Pods_DVT_WeatherApp_AdonisRumbwereUITests.framework */; };
 		F13529B623A2562E00F47982 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB1B239E864600A65A01 /* ViewController.swift */; };
 		F13529B723A2562E00F47982 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB1B239E864600A65A01 /* ViewController.swift */; };
+		F17F478523A8041A005B8B1F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1FADB25239E864900A65A01 /* Info.plist */; };
+		F17F478623A8041B005B8B1F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1FADB25239E864900A65A01 /* Info.plist */; };
 		F1A1B93223A77F4E00DB3618 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A1B93123A77F4E00DB3618 /* Extension.swift */; };
 		F1A1B93423A77FB200DB3618 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A1B93323A77FB200DB3618 /* CurrentWeather.swift */; };
 		F1A1B93623A77FD600DB3618 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A1B93523A77FD600DB3618 /* Location.swift */; };
 		F1A1B93823A7801400DB3618 /* ForecastWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A1B93723A7801400DB3618 /* ForecastWeather.swift */; };
 		F1A1B93A23A7807000DB3618 /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A1B93923A7807000DB3618 /* ForecastCell.swift */; };
+		F1A1B93B23A7991400DB3618 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB50239FE51700A65A01 /* Extras.swift */; };
+		F1A1B93C23A7991400DB3618 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB50239FE51700A65A01 /* Extras.swift */; };
+		F1C4018E23A80D760083F2CF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1FADB25239E864900A65A01 /* Info.plist */; };
 		F1FADB18239E864600A65A01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB17239E864600A65A01 /* AppDelegate.swift */; };
 		F1FADB1A239E864600A65A01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB19239E864600A65A01 /* SceneDelegate.swift */; };
 		F1FADB1C239E864600A65A01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FADB1B239E864600A65A01 /* ViewController.swift */; };
@@ -43,6 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		072718473FC96254C3ED62C8 /* Pods_DVT_WeatherApp_AdonisRumbwereUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DVT_WeatherApp_AdonisRumbwereUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF3CA1DAF9EEB7CC7E925D3 /* Pods-DVT-WeatherApp-AdonisRumbwereUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT-WeatherApp-AdonisRumbwereUITests.release.xcconfig"; path = "Target Support Files/Pods-DVT-WeatherApp-AdonisRumbwereUITests/Pods-DVT-WeatherApp-AdonisRumbwereUITests.release.xcconfig"; sourceTree = "<group>"; };
+		109735B47538E0BECFD85D1A /* Pods-DVT-WeatherApp-AdonisRumbwereUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT-WeatherApp-AdonisRumbwereUITests.debug.xcconfig"; path = "Target Support Files/Pods-DVT-WeatherApp-AdonisRumbwereUITests/Pods-DVT-WeatherApp-AdonisRumbwereUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BFF1631DA4050C47339D9FB /* Pods-DVT-WeatherApp-AdonisRumbwere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT-WeatherApp-AdonisRumbwere.debug.xcconfig"; path = "Target Support Files/Pods-DVT-WeatherApp-AdonisRumbwere/Pods-DVT-WeatherApp-AdonisRumbwere.debug.xcconfig"; sourceTree = "<group>"; };
+		6EE2C079BD379824F0829208 /* Pods-DVT-WeatherApp-AdonisRumbwereTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT-WeatherApp-AdonisRumbwereTests.debug.xcconfig"; path = "Target Support Files/Pods-DVT-WeatherApp-AdonisRumbwereTests/Pods-DVT-WeatherApp-AdonisRumbwereTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89FA5BB363A0BECB172B71B7 /* Pods_DVT_WeatherApp_AdonisRumbwere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DVT_WeatherApp_AdonisRumbwere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9092A4F436FBF84D7AAAD1DB /* Pods_DVT_WeatherApp_AdonisRumbwereTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DVT_WeatherApp_AdonisRumbwereTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15CD4A011E677DCD4C23808 /* Pods-DVT-WeatherApp-AdonisRumbwere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT-WeatherApp-AdonisRumbwere.release.xcconfig"; path = "Target Support Files/Pods-DVT-WeatherApp-AdonisRumbwere/Pods-DVT-WeatherApp-AdonisRumbwere.release.xcconfig"; sourceTree = "<group>"; };
 		F1A1B93123A77F4E00DB3618 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		F1A1B93323A77FB200DB3618 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		F1A1B93523A77FD600DB3618 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
@@ -63,6 +79,7 @@
 		F1FADB39239E864A00A65A01 /* DVT_WeatherApp_AdonisRumbwereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVT_WeatherApp_AdonisRumbwereUITests.swift; sourceTree = "<group>"; };
 		F1FADB3B239E864A00A65A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1FADB50239FE51700A65A01 /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
+		FD95274BEFB023EB2F2A32DE /* Pods-DVT-WeatherApp-AdonisRumbwereTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT-WeatherApp-AdonisRumbwereTests.release.xcconfig"; path = "Target Support Files/Pods-DVT-WeatherApp-AdonisRumbwereTests/Pods-DVT-WeatherApp-AdonisRumbwereTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B52FFDF41DDBD3547BC97B5 /* Pods_DVT_WeatherApp_AdonisRumbwere.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97989C7833EC9374679B3849 /* Pods_DVT_WeatherApp_AdonisRumbwereTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +103,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3898077D666C6C86BE94AF /* Pods_DVT_WeatherApp_AdonisRumbwereUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13D46463A578BE45CFBEB5E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF1631DA4050C47339D9FB /* Pods-DVT-WeatherApp-AdonisRumbwere.debug.xcconfig */,
+				F15CD4A011E677DCD4C23808 /* Pods-DVT-WeatherApp-AdonisRumbwere.release.xcconfig */,
+				6EE2C079BD379824F0829208 /* Pods-DVT-WeatherApp-AdonisRumbwereTests.debug.xcconfig */,
+				FD95274BEFB023EB2F2A32DE /* Pods-DVT-WeatherApp-AdonisRumbwereTests.release.xcconfig */,
+				109735B47538E0BECFD85D1A /* Pods-DVT-WeatherApp-AdonisRumbwereUITests.debug.xcconfig */,
+				0EF3CA1DAF9EEB7CC7E925D3 /* Pods-DVT-WeatherApp-AdonisRumbwereUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		644C1FE7CB62C2FAD60D25F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89FA5BB363A0BECB172B71B7 /* Pods_DVT_WeatherApp_AdonisRumbwere.framework */,
+				9092A4F436FBF84D7AAAD1DB /* Pods_DVT_WeatherApp_AdonisRumbwereTests.framework */,
+				072718473FC96254C3ED62C8 /* Pods_DVT_WeatherApp_AdonisRumbwereUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F1FADB0B239E864600A65A01 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +140,8 @@
 				F1FADB2D239E864A00A65A01 /* DVT-WeatherApp-AdonisRumbwereTests */,
 				F1FADB38239E864A00A65A01 /* DVT-WeatherApp-AdonisRumbwereUITests */,
 				F1FADB15239E864600A65A01 /* Products */,
+				13D46463A578BE45CFBEB5E3 /* Pods */,
+				644C1FE7CB62C2FAD60D25F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,11 +158,11 @@
 		F1FADB16239E864600A65A01 /* DVT-WeatherApp-AdonisRumbwere */ = {
 			isa = PBXGroup;
 			children = (
+				F1FADB49239E9FFF00A65A01 /* Model */,
+				F1FADB4D239EA0AD00A65A01 /* View */,
+				F1FADB48239E9FEF00A65A01 /* Controller */,
 				F1FADB4F239EA0D700A65A01 /* Extensions */,
 				F1FADB4E239EA0CF00A65A01 /* Extras */,
-				F1FADB4D239EA0AD00A65A01 /* View */,
-				F1FADB49239E9FFF00A65A01 /* Model */,
-				F1FADB48239E9FEF00A65A01 /* Controller */,
 				F1FADB17239E864600A65A01 /* AppDelegate.swift */,
 				F1FADB19239E864600A65A01 /* SceneDelegate.swift */,
 				F1FADB1D239E864600A65A01 /* Main.storyboard */,
@@ -196,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1FADB3E239E864A00A65A01 /* Build configuration list for PBXNativeTarget "DVT-WeatherApp-AdonisRumbwere" */;
 			buildPhases = (
+				0AA1EA258638C8462A011A2F /* [CP] Check Pods Manifest.lock */,
 				F1FADB10239E864600A65A01 /* Sources */,
 				F1FADB11239E864600A65A01 /* Frameworks */,
 				F1FADB12239E864600A65A01 /* Resources */,
+				D23648A1E4CC0A566ADE48E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1FADB41239E864A00A65A01 /* Build configuration list for PBXNativeTarget "DVT-WeatherApp-AdonisRumbwereTests" */;
 			buildPhases = (
+				5C15679784586C5F67AFAEB8 /* [CP] Check Pods Manifest.lock */,
 				F1FADB26239E864A00A65A01 /* Sources */,
 				F1FADB27239E864A00A65A01 /* Frameworks */,
 				F1FADB28239E864A00A65A01 /* Resources */,
@@ -231,6 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1FADB44239E864A00A65A01 /* Build configuration list for PBXNativeTarget "DVT-WeatherApp-AdonisRumbwereUITests" */;
 			buildPhases = (
+				C6A01626D0E5EF53A0EB6A7E /* [CP] Check Pods Manifest.lock */,
 				F1FADB31239E864A00A65A01 /* Sources */,
 				F1FADB32239E864A00A65A01 /* Frameworks */,
 				F1FADB33239E864A00A65A01 /* Resources */,
@@ -252,7 +301,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Adonis Rumbwere";
 				TargetAttributes = {
 					F1FADB13239E864600A65A01 = {
@@ -293,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C4018E23A80D760083F2CF /* Info.plist in Resources */,
 				F1FADB24239E864900A65A01 /* LaunchScreen.storyboard in Resources */,
 				F1FADB21239E864900A65A01 /* Assets.xcassets in Resources */,
 				F1FADB1F239E864600A65A01 /* Main.storyboard in Resources */,
@@ -303,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17F478523A8041A005B8B1F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,10 +361,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17F478623A8041B005B8B1F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AA1EA258638C8462A011A2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DVT-WeatherApp-AdonisRumbwere-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C15679784586C5F67AFAEB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DVT-WeatherApp-AdonisRumbwereTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A01626D0E5EF53A0EB6A7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DVT-WeatherApp-AdonisRumbwereUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D23648A1E4CC0A566ADE48E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DVT-WeatherApp-AdonisRumbwere/Pods-DVT-WeatherApp-AdonisRumbwere-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DVT-WeatherApp-AdonisRumbwere/Pods-DVT-WeatherApp-AdonisRumbwere-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DVT-WeatherApp-AdonisRumbwere/Pods-DVT-WeatherApp-AdonisRumbwere-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F1FADB10239E864600A65A01 /* Sources */ = {
@@ -337,6 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F13529B623A2562E00F47982 /* ViewController.swift in Sources */,
+				F1A1B93B23A7991400DB3618 /* Extras.swift in Sources */,
 				F1FADB2F239E864A00A65A01 /* DVT_WeatherApp_AdonisRumbwereTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +485,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F13529B723A2562E00F47982 /* ViewController.swift in Sources */,
+				F1A1B93C23A7991400DB3618 /* Extras.swift in Sources */,
 				F1FADB3A239E864A00A65A01 /* DVT_WeatherApp_AdonisRumbwereUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +641,7 @@
 		};
 		F1FADB3F239E864A00A65A01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BFF1631DA4050C47339D9FB /* Pods-DVT-WeatherApp-AdonisRumbwere.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -519,6 +660,7 @@
 		};
 		F1FADB40239E864A00A65A01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15CD4A011E677DCD4C23808 /* Pods-DVT-WeatherApp-AdonisRumbwere.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -537,6 +679,7 @@
 		};
 		F1FADB42239E864A00A65A01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE2C079BD379824F0829208 /* Pods-DVT-WeatherApp-AdonisRumbwereTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -559,6 +702,7 @@
 		};
 		F1FADB43239E864A00A65A01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD95274BEFB023EB2F2A32DE /* Pods-DVT-WeatherApp-AdonisRumbwereTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -581,6 +725,7 @@
 		};
 		F1FADB45239E864A00A65A01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109735B47538E0BECFD85D1A /* Pods-DVT-WeatherApp-AdonisRumbwereUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -601,6 +746,7 @@
 		};
 		F1FADB46239E864A00A65A01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF3CA1DAF9EEB7CC7E925D3 /* Pods-DVT-WeatherApp-AdonisRumbwereUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
